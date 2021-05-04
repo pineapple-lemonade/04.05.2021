@@ -12,6 +12,7 @@ int binary_search(const int array[],int size, int x) {
             middle = (middle + size)/2;
         }
     }
+    return -1;
 }
 int main() {
     int size = 10;
